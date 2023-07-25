@@ -10,9 +10,9 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 26; i++)
-	{ 
+	{
 		putchar(alph[i]);
 	}
 	putchar ('\n');
-	return(0);
+	return (0);
 }
