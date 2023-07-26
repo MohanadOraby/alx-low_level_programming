@@ -4,9 +4,9 @@
  * print_alphabet - print all alphabet in lowercase
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	char letter = 'z';
+	char letter = 'a';
 
 	while (letter <= 'z')
 	{
@@ -14,5 +14,4 @@ int main(void)
 		letter++;
 	}
 	_putchar('\n');
-	return (0);
 }
