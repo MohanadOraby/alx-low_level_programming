@@ -1,4 +1,8 @@
-#include "main.h"
+/*
+ * File: 101-natural.c
+ * Auth: vincent kip
+ */
+
 #include <stdio.h>
 
 /**
@@ -9,16 +13,15 @@
  */
 int main(void)
 {
-	int tmp;
-	tmp = 0;
-	int i;
+	int i, sum = 0;
 
 	for (i = 0; i < 1024; i++)
 	{
-		if ((i%3 == 0) || (i%5 == 0))
-		{
-			tmp = tmp + i;
-		}
+		if ((i % 3) == 0 || (i % 5) == 0)
+			sum += i;
 	}
-	return (tmp);
+
+	printf("%d\n", sum);
+
+	return (0);
 }
