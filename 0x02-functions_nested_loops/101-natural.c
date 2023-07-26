@@ -13,7 +13,7 @@
  */
 int main(void)
 {
-	int i; 
+	int i;
 	int sum;
 
 	sum = 0;
